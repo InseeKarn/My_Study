@@ -30,6 +30,12 @@ void Calculator(int a,int b, char op){
                 printf("Error: Square root of negative number");
             }
             break;
+        case '^':
+            printf("%d ^ %d = %.2f",a,b , pow(a, b));
+            break;
+        default:
+            printf("Error: Invalid operator");
+            break;
     }
 }
 
