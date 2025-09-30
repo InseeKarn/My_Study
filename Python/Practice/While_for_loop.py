@@ -38,16 +38,27 @@ def While_For_List():
     print(f"Sum of numbers[] = {sum(numbers)}")
         
 def Prime_Number():
-     
+    import math
+    for i in range(2, 100):
+        flag = True
+        for j in range(2, round(math.sqrt(i) + 1)):
+            if i % j == 0:
+                flag = False
+                break
+        if flag == True:
+            print(i)
+    
 
+def Arr():
+    arr = []
+    for i in range(0, 5):
+        n = int(input("Enter num: "))
+        arr.append(n)
+    
+    print(f"Max = {max(arr)}\nMin = {min(arr)}")
 
-# Even()
-# print("Even func successed")
-# Odd()
-# print("Odd func is successed")
-# Loop_Condition()
-# print("Loop_Condition func is successed")
-# Break_Continue()
-# print("Break_Continue() func is successed")
-# While_For_List()
-# print("While_For_List() func is successed")
+    print(f"Avg = {sum(arr) / len(arr)}")
+
+    print(f"Sorted = {sorted(arr)}")
+
+Arr()
