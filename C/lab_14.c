@@ -1,29 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-typedef struct{
-    char Codes[11];
-    char Name[50];
-    char NickName[10];
-    char Sex;
-    int Age;
-
-} Friend;
-
+#include <math.h>
 
 int main(){
-    Friend F1 = {"6820501731", "Karnphong", "Insee", 'M', 18};
-    Friend FriendList[5] = {0};
-    FriendList[4] = F1;
-    printf("%s\n", F1.Codes);
-    printf("%s\n", F1.Name);
-    printf("%s\n", F1.NickName);
-    printf("%c\n", F1.Sex);
-    printf("%d\n", F1.Age);
 
-    int sum = 0;
-    for(int i = 0;i < 5;i++)
-        sum += FriendList[i].Age;
-    printf("%.2f ", (float)sum / 5.0);
+    int num1;
+    do{
+        printf("Play game => please enter Even number (more than 3)\n");
+        printf("Exit game => please enter 0\nEnter Number:");
+        
+        if (scanf("%d", &num1) == 0){
+            break;
+        }
+    }while (num1 % 2 != 0 || num1 <= 3);
+
+    if (num1 == 0){
+        printf("See you next time!");
+    }
+
     return 0;
 }
