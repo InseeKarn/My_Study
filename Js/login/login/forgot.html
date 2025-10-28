@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic book style template(Password)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <div class="demo-notice">This is a demo template. Replace with your backend logic.</div> -->
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">⚡ InseeKarn</div>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+            <a href="dashboard.html" class="active">Dashboard</a>
+        </nav>
+    </header>
+
+    <!-- FORGOT PASSWORD PAGE -->
+    <div class="auth-container">
+        <div class="auth-card">
+            <h1>🔐 Reset Password</h1>
+            <p>Enter your email and we'll send you a reset link.</p>
+            
+            <form id="forgotForm">
+                <div class="form-group">
+                    <label for="forgotEmail">Email</label>
+                    <input type="email" id="forgotEmail" placeholder="Enter your email" required>
+                    <div class="error-message" id="forgotEmailError"></div>
+                </div>
+                
+                <button type="submit" class="btn">Send Reset Link</button>
+                
+                <div class="link-text">
+                    Remember your password? <a href="login.html">Login here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

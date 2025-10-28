@@ -1,0 +1,30 @@
+Input n -> size of board n x n
+    n must n % 2 == 0 and n > 3
+
+loop:
+    Have only 2x2 block
+        Player can select position where block land
+            if 0 - - - -
+                - - - -
+                x x - -
+                x x - -
+
+            else if 1  - - - -
+                    - - - -
+                    - x x -
+                    - x x -
+
+            else if 2 - - - -
+                    - - - -
+                    - - x x
+                    - - x x
+
+            else if .... -> n
+            
+            if  - - - -      - - - -   - - x x       - - - -
+                - - - -      - - - -   - - x x       - - - -
+                x x x x ===> - - - -   x x x x ====> - - x x
+                x x x x      - - - -   x x x x       - - x x
+            
+            if no have space in board for next block 
+                break;

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic book style template(Login)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <div class="demo-notice">This is a demo template. Replace with your backend logic.</div> -->
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">⚡ InseeKarn</div>
+            <a href="login.html" class="active">Login</a>
+            <a href="signup.html">Signup</a>
+            <a href="dashboard.html" class="active">Dashboard</a>
+        </nav>
+    </header>
+
+    <!-- LOGIN PAGE -->
+    <div class="auth-container">
+        <div class="auth-card">
+            <h1>🦸 Login</h1>
+            <p>Welcome back, hero! Enter your credentials to continue.</p>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email or Username</label>
+                    <input type="text" id="loginEmail" placeholder="Enter your email or username" required>
+                    <div class="error-message" id="loginEmailError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                    <div class="error-message" id="loginPasswordError"></div>
+                </div>
+                
+                <button type="submit" class="btn">Login</button>
+                
+                <div class="divider"><span>or</span></div>
+                
+                <button type="button" class="btn btn-google" onclick="handleOAuthLogin('google')">
+                    Login with Google
+                </button>
+                <button type="button" class="btn btn-github" onclick="handleOAuthLogin('github')">
+                    Login with GitHub
+                </button>
+                
+                <div class="link-text">
+                    <a href="forgot.html">Forgot Password?</a>
+                </div>
+                <div class="link-text">
+                    Don't have an account? <a href="signup.html">Sign up here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
