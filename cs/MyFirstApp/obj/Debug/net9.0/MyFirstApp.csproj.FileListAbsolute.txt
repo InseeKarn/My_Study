@@ -1,0 +1,15 @@
+E:\projects\My_Study\cs\MyFirstApp\bin\Debug\net9.0\MyFirstApp.exe
+E:\projects\My_Study\cs\MyFirstApp\bin\Debug\net9.0\MyFirstApp.deps.json
+E:\projects\My_Study\cs\MyFirstApp\bin\Debug\net9.0\MyFirstApp.runtimeconfig.json
+E:\projects\My_Study\cs\MyFirstApp\bin\Debug\net9.0\MyFirstApp.dll
+E:\projects\My_Study\cs\MyFirstApp\bin\Debug\net9.0\MyFirstApp.pdb
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.AssemblyInfoInputs.cache
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.AssemblyInfo.cs
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.csproj.CoreCompileInputs.cache
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.sourcelink.json
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.dll
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\refint\MyFirstApp.dll
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.pdb
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\MyFirstApp.genruntimeconfig.cache
+E:\projects\My_Study\cs\MyFirstApp\obj\Debug\net9.0\ref\MyFirstApp.dll
