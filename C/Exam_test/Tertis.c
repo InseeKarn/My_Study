@@ -1,34 +1,31 @@
 #include <stdio.h>
+#include <string.h>
 
-int main() {
-    int n;
-    printf("Enter n= ");
-    scanf("%d", &n);
+typedef struct {
+    int Model;
+    char ip;
+} car;
 
-    // พิมพ์ส่วนบน
-    for (int i = 1; i <= n; i++) {
-        // เว้นช่องว่างด้านหน้า (ให้เรียงกันสวย)
-        for (int j = 0; j < n-1; j++) {
-            printf(" ");
+int lengthOfLongestSubstring(char* s) {
+    int count = 1, i = 0;
+    while (i < strlen(s)){
+        if (s[i] != s[i+1]) {
+            count++;
+            if (s[i] = strlen(s) - i){
+                break;
+            }
         }
 
-        // พิมพ์เครื่องหมาย |
-        printf("|");
-
-        // พิมพ์เครื่องหมาย )
-        for (int k = 1; k <= i; k++) {
-            printf(")");
-        }
-
-        printf("\n");
+        i++;
     }
 
-    // พิมพ์ส่วนล่าง
-    printf("\\");
-    for (int i = 0; i < n; i++) {
-        printf("-");
-    }
-    printf("/\n");
+    return count;
+}
 
-    return 0;
+int  main() {
+
+    char s[50] = "abcabcbb";
+    int count = lengthOfLongestSubstring(s);
+    printf("%d", count);
+
 }
