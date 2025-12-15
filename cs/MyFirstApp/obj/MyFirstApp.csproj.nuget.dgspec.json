@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj": {}
+    "E:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj": {}
   },
   "projects": {
-    "e:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj": {
+    "E:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj",
+        "projectUniqueName": "E:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "e:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj",
+        "projectPath": "E:\\projects\\My_Study\\cs\\MyFirstApp\\MyFirstApp.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "e:\\projects\\My_Study\\cs\\MyFirstApp\\obj\\",
+        "outputPath": "E:\\projects\\My_Study\\cs\\MyFirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files\\NuGetPackages"

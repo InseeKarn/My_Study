@@ -1,9 +1,19 @@
-﻿using System;
+﻿// Program.cs
+using System;
+using Vehicles;
 
-public class Program
+namespace LearnCsharp
 {
-    static void Main()
+    class Program
     {
+        public static void Main()
+        {
+            Car Mycar = new Car();
+            Mycar.Make = "Toyota";
+            Mycar.Model = 021;
+            Mycar.Year = 2025;
 
+            Mycar.Drive();
+        }
     }
 }
